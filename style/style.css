@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+  line-height: 20px;
+  font-family: Barlow, sans-serif;
+}
+
+
+
+.link{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #212529;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.link:hover{
+  color:#212529 ;
+}
+
+.d-link{
+    color: gray;
+}
+
+.d-link:hover{
+    color: blue;
+}
+
+
+
+span>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+div>button{
+    background-color: #FFBF5E;
+    border: none;
+    padding: 3px;
+}
+
+
+input[type=text] {
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    align-items: flex-start;
+  }
+
+  input:focus{
+    outline:none;
+    border: 1px solid #0008ff;
+   
+  }
+
+  div>.card{
+    border: 5px solid rgb(36, 36, 36);
+  }
+
+  h1,h2,h3,h4{
+    font-family: "Roboto Mono", monospace;
+  }
+
+  input{
+    width: 300px;
+  }
+
+  .card{
+    cursor: pointer;
+  }
+  .card:hover{
+    box-shadow: 4px 4px;
+    transform: scale(1.02);
+  }
